@@ -10,7 +10,7 @@ public:
 	    int larg=INT_MIN;
 	    int secLarg=INT_MIN;
 	    for(int i=0;i<n;i++){
-	        
+	          if(arr[i]>larg){
 	        // when we find the largest element then we first update the curr larg as second larg and update new large
 	            secLarg=larg;
 	            larg=arr[i];
